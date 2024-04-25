@@ -1,0 +1,69 @@
+.saadat-container {
+    background-color: white;
+}
+
+.saadat-header {
+    background-color: #D787EF;
+  }
+  
+  .saadat-main {
+    background-color: pink; 
+  }
+  
+  .saadat-header h1 {
+    color: purple;
+    font-family: 'Papyrus', fantasy;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .saadat-section h2 {
+    color: salmon;
+    font-family: 'Papyrus', fantasy;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .saadat-section p {
+    color: black;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px; 
+    text-align: center;
+  }
+  
+  .saadat-section h3 {
+    font-family: 'Brush Script MT', cursive; 
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .saadat-section button {
+    padding: 20px 40px;
+    background-color: salmon; 
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+  }
+  
+  .saadat-gif-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .saadat-button-helper {
+    display: grid;
+    place-items: center; 
+  }
+  
+  .saadat-image-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+  }
+  

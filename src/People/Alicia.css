@@ -1,0 +1,40 @@
+/* CSS selectors only affecting Alicia's HTML */
+.alicia-container {
+    /* Add Alicia's specific styles here */
+    margin: 0;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center both horizontally and vertically */
+    height: 100vh;
+    padding-bottom: 30px;
+}
+
+/* Styles for specific elements within Alicia's HTML */
+.alicia-container .header-container {
+    /* Header styles */
+    background-color: rgb(255, 238, 238);
+    width: 100%;
+    top: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+.alicia-container img {
+    /* Image styles */
+    margin-top: 40px;
+    width: auto;
+    height: 40%;
+    padding-bottom: 20px;
+}
+
+.alicia-container h1,
+.alicia-container a,
+.alicia-container p {
+    /* Heading, link, and paragraph styles */
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 139, 158);
+    text-align: center;
+}
