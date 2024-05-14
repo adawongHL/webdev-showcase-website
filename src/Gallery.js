@@ -16,9 +16,9 @@ const Gallery = () => {
     navigate(`/${namePerson.toLowerCase()}`);
   };
 
-  const redirectToURL = () => {
+  const redirectToURL = (myURL) => {
     // Replace 'https://example.com' with the desired URL
-    window.location.href = 'https://webdev.vaughnvalle.me/';
+    window.location.href = myURL;
   };
 
   return (
@@ -26,13 +26,35 @@ const Gallery = () => {
       {/* <Header /> */}
       
       <div id="pageTitle">Team Ada</div>
-      <div id="pageSubtitle">Week 1: HTML CSS Portfolio Showcase</div>
+
+      <div id="pageSubtitle">Week 3: React Shopping Site</div>
+
+      <div className="card" onClick={() => redirectToURL("https://simply-shopping-web.vercel.app/")}>
+        <img src={pixelAlicia}  />  
+        <h1>Alicia</h1>
+      </div>
+      <div className="card" onClick={() => redirectToURL("https://webdev.vaughnv.com/")}>
+        <img src={pixelVaughn}  />
+        <h1>Vaughn</h1>
+      </div>
+      <div className="card" onClick={() => redirectToURL("https://webdev-assistants-website.vercel.app/")}>
+        <img src={pixelRafin}  />
+        <h1>Saadat</h1>
+      </div>
+      <div className="card" onClick={() => redirectToURL("https://rilieo.github.io/shopping-site/")}>
+        <img src={pixelRiley}  />
+        <h1>Riley</h1>
+      </div>
+
+
+
+      <div id="pageSubtitle">Week 1: HTML CSS Portfolio</div>
 
       <div className="card" onClick={() => navigate(`/alicia`)}>
         <img src={pixelAlicia}  />  
         <h1>Alicia</h1>
       </div>
-      <div className="card" onClick={() => redirectToURL()}>
+      <div className="card" onClick={() => redirectToURL("https://webdev.vaughnvalle.me/")}>
         <img src={pixelVaughn}  />
         <h1>Vaughn</h1>
       </div>
@@ -44,6 +66,15 @@ const Gallery = () => {
         <img src={pixelRiley}  />
         <h1>Riley</h1>
       </div>
+
+
+
+      
+
+      
+
+
+
     </div>
   );
 };
